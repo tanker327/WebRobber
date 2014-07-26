@@ -1,0 +1,37 @@
+{
+    "name": "webtweezer",
+    "version": "0.0.1",
+    "main": "./lib",
+    "description": "Pick up specified content from web page easily.",
+    "homepage": "https://github.com/tanker327/webtweezer",
+    "bugs": "https://github.com/tanker327/webtweezer/issues",
+    "author": {
+        "name": "Eric Wu",
+        "email": "tanker327@gmail.com"
+    },
+    "scripts": {
+        "test": "mocha",
+        "start":"node ./example/example.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tanker327/webtweezer"
+    },
+    "license": "MIT",
+    "files": [
+        "lib"
+    ],
+    "keywords": [
+        "webrobber",
+        "web",
+        "crawler",
+        "content"
+    ],
+    "devDependencies": {
+        "mocha": "^1.21.0",
+        "should": "^4.0.4"
+    },
+    "dependencies": {
+        "cheerio": "^0.17.0"
+    }
+}
