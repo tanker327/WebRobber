@@ -85,7 +85,7 @@ If for one content, you have several selectors. One of the selector will work. T
 var dataMap = {
 				logoImg:["#hplogo | src","#logo-url","#new-logo | src"]
        	};
-'''
+```
 
 
 ## Test
