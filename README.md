@@ -55,7 +55,7 @@ The result will be :
  	```
 	Please see [DataMap](#datamap) for details
 
- 4. Grab the data from web page
+ 4. Grab the content from web page
  	```js
  	webRobber.grab(url, dataMap, function (err, result) {
     	if(err){
