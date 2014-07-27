@@ -44,7 +44,7 @@ The result will be :
 
  3. Prepare  dataMap:
  	```js
- 	var dataMap = { property : selector [| method]}
+ 	var dataMap = { property : selector [| attribute]}
  	```
  	example:
  	```js
@@ -65,6 +65,7 @@ The result will be :
     	}
 	});
  	```
+
 ## DataMap
 DataMap is a map object use to define _Name_ and _Selector_ of the content you want to grap. _Name_ is used be mark the name of content in the final reslut object. _Selector_ is used to select the content in the web page.
 
