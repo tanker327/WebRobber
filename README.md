@@ -51,4 +51,4 @@ To run the tests for _WebRobber_ simply run:
 
 ## License
 
-MIT &copy; 2010-2014 TJ Holowaychuk
+MIT &copy; 2014 Eric Wu
