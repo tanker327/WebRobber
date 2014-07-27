@@ -80,7 +80,7 @@ var dataMap = {
        	};
 ```
 
-If for one content, you have several selectors. One of the selector will work. Then you can put all selector in  an array. The first valid content will be set.
+If for one content, you have several selectors. One of the selector will work. Then you can put all selectors in  an array. The first valid content will be set.
 ``` js
 var dataMap = {
 				logoImg:["#hplogo | src","#logo-url","#new-logo | src"]
