@@ -1,5 +1,5 @@
 {
-    "name": "WebRobber",
+    "name": "webrobber",
     "version": "0.1.0",
     "main": "./lib",
     "description": "A light weight nodejs library to helps you grab the specified content on any web page on internet.",
