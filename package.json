@@ -1,10 +1,10 @@
 {
-    "name": "webtweezer",
-    "version": "0.0.1",
+    "name": "WebRobber",
+    "version": "0.1.0",
     "main": "./lib",
-    "description": "Pick up specified content from web page easily.",
-    "homepage": "https://github.com/tanker327/webtweezer",
-    "bugs": "https://github.com/tanker327/webtweezer/issues",
+    "description": "A light weight nodejs library to helps you grab the specified content on any web page on internet.",
+    "homepage": "https://github.com/tanker327/WebRobber",
+    "bugs": "https://github.com/tanker327/WebRobber/issues",
     "author": {
         "name": "Eric Wu",
         "email": "tanker327@gmail.com"
@@ -15,23 +15,28 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/tanker327/webtweezer"
+        "url": "https://github.com/tanker327/WebRobber"
     },
-    "license": "MIT",
     "files": [
         "lib"
     ],
+    "dependencies": {
+        "cheerio": "^0.17.0"
+    },
+    "devDependencies": {
+        "mocha": "^1.21.0",
+        "should": "^4.0.4"
+    },
     "keywords": [
         "webrobber",
         "web",
         "crawler",
         "content"
-    ],
-    "devDependencies": {
-        "mocha": "^1.21.0",
-        "should": "^4.0.4"
-    },
-    "dependencies": {
-        "cheerio": "^0.17.0"
-    }
+    ]，
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/tanker327/WebRobber/blob/master/LICENSE"
+        }
+    ]
 }

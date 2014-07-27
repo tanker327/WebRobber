@@ -1,7 +1,7 @@
 WebRobber
 =========
 
-_WebRobber_ is an light weight nodejs library. Main goal of this library is to __helps you grab the specified content on any web page on internet__.
+_WebRobber_ is a light weight nodejs library. Main goal of this library is to __helps you grab the specified content on any web page on internet__.
 
 
 ## Example
