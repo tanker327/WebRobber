@@ -4,10 +4,11 @@
 
 var webRobber = require('./../lib');
 
-var url = "http://www.google.com",
-    dataMaps = {title:"title",
-                logoImg:"#hplogo | src"
-                };
+var url = "http://www.google.com";
+var dataMaps = {
+        title:"title",
+        logoImg:"#hplogo | src"
+        };
 
 webRobber.grab(url, dataMaps, function (err, result) {
     if(err){
