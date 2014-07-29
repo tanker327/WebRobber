@@ -124,7 +124,7 @@ If multiple contents are found for one selector. All contents will be set an arr
 
 All the results of grabbing will be return in a object as result (Please see [example](#example) at top for detail).
 
-There is special value in result object : __ _url __. It keeps the url used for grabbing.
+There is special value in result object : _url. It keeps the url used for grabbing.
 
 
 ## Test
