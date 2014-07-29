@@ -1,5 +1,5 @@
 /**
- * Created by Tanker on 7/26/14.
+ * Created by Eric Wu on 7/26/14.
  */
 
 var pageLoader = require('../../lib/pageLoader');
