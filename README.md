@@ -6,7 +6,7 @@ _WebRobber_ is a light weight nodejs library. Main goal of this library is to __
 
 ## Example
 
-Let use [http://www.google.com](http://www.google.com)  as a example. When you check the source code of the page , you will find the code will like below:
+Let's use [http://www.google.com](http://www.google.com)  as a example. When you check the source code of the page , you will find the code will like below:
 ```html
 <html>
     <head>
@@ -23,7 +23,7 @@ Let use [http://www.google.com](http://www.google.com)  as a example. When you c
 </html>
 ```
 
-Now let's us WebRoober to grab the title of this page and url of the logo image.
+Now let's use WebRoober to grab the title of this page and url of the logo image.
 
 ```javascript
 var webRobber = require('./../lib');
