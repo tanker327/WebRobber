@@ -6,7 +6,7 @@ _WebRobber_ is a light weight nodejs library. Main goal of this library is to __
 
 ## Example
 
-Let's use [http://www.google.com](http://www.google.com)  as a example. When you check the source code of the page , you will find the code will like below:
+Let's use [http://www.google.com](http://www.google.com)  as a example. If you check the source code of the page , it should like below:
 ```html
 <html>
     <head>
@@ -24,7 +24,7 @@ Let's use [http://www.google.com](http://www.google.com)  as a example. When you
 </html>
 ```
 
-Now let's use WebRoober to grab the title of this page and url of the logo image.
+Now let's use WebRoober to grab the __title of this page__ , __url of the logo image__ and __all the image urls__.
 
 ```javascript
 var webRobber = require('./../lib');
@@ -59,6 +59,8 @@ The result will be :
 ```
 
 ## To begin
+
+Please make sure you have nodejs and npm installed.
 
  1. Install it:
 
@@ -116,15 +118,13 @@ var dataMap = {
 				logoImg:["#hplogo | src","#logo-url","#new-logo | src"]
        	};
 ```
-If multiple contents are found for one selector. All contents will be set an array and save in result. Please see example at beginning for you reference.
+If multiple contents are found for one selector. All contents will be set an array and saved in result. Please see [example at top](#example) for you reference.
 
 ## Result
 
 All the results of grabbing will be return in a object as result (Please see [example](#example) at top for detail).
 
-There are some special value in result object :
-
-1. _url will keep the url used for grabbing.
+There is special value in result object : __ _url __. It keeps the url used for grabbing.
 
 
 ## Test
