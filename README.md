@@ -27,7 +27,7 @@ Let's use [http://www.google.com](http://www.google.com)  as a example. If you c
 Now let's use WebRoober to grab the __title of this page__ , __url of the logo image__ and __all the image urls__.
 
 ```javascript
-var webRobber = require('./../lib');
+var webRobber = require('webrobber');
 
 var url = "http://www.google.com";
 var dataMaps = {
