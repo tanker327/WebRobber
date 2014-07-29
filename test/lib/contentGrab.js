@@ -13,10 +13,10 @@ describe("ContentGrab", function(){
 
         var result =  contentGrab(content, grabDetail);
 
-        console.log(result);
+//        console.log(result);
 
-//        result.name.should.exactly("aaa");
-//        result.age.should.exactly("123");
+        result.name.should.exactly("aaa");
+        result.age.should.exactly("123");
 
     });
 
@@ -27,11 +27,11 @@ describe("ContentGrab", function(){
 
         var result =  contentGrab(content, grabDetail);
 
-        console.log(result);
+//        console.log(result);
 
-//        result.name[0].should.exactly( 'aaa');
-//        result.name[1].should.exactly( 'bbb');
-//        result.age[0].should.exactly('123');
-//        result.age[1].should.exactly('456');
+        result.name[0].should.exactly( 'aaa');
+        result.name[1].should.exactly( 'bbb');
+        result.age[0].should.exactly('123');
+        result.age[1].should.exactly('456');
     });
 });
