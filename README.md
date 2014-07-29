@@ -31,7 +31,8 @@ var webRobber = require('./../lib');
 var url = "http://www.google.com";
 var dataMaps = {
         title:"title",
-        logoImg:"#hplogo | src"
+        logoImg:"#hplogo | src",
+        images:"img | src"
         };
 
 webRobber.grab(url, dataMaps, function (err, result) {
@@ -45,7 +46,15 @@ webRobber.grab(url, dataMaps, function (err, result) {
 The result will be :
 ```javascript
 
-{ title: 'Google', logoImg: '/images/srpr/logo9w.png' }
+{
+  title: 'Google',
+  logoImg: '/images/srpr/logo9w.png',
+  images:  [
+             '/images/icons/product/chrome-48.png',
+             '/images/srpr/logo9w.png'
+           ],
+  _url: 'http://www.google.com'
+}
 ```
 
 ## To begin
@@ -100,12 +109,20 @@ var dataMap = {
        	};
 ```
 
-If for one content, you have several selectors. One of the selector will work. Then you can put all selectors in  an array. The first valid content will be set.
+If for one content, you may have several possible selectors. You can put all possible selectors in an array. All the selector will be checked one after another until we find valid content.
 ``` js
 var dataMap = {
 				logoImg:["#hplogo | src","#logo-url","#new-logo | src"]
        	};
 ```
+If for one selector, multiple content are found. All will content will be set an array and save in result. Please see example at beginning for you reference.
+
+## Result
+
+All the results of grabbing will be return in a object as result.
+
+There are some special value in result object :
+    1. _ _url _ will keep the url used for grabbing.
 
 
 ## Test
