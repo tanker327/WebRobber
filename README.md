@@ -120,6 +120,8 @@ var dataMap = {
 ```
 If multiple contents are found for one selector. All contents will be set an array and saved in result. Please see [example at top](#example) for you reference.
 
+If use * as selector, all the content of web page will be save for the property.
+
 ## Result
 
 All the results of grabbing will be return in a object as result (Please see [example](#example) at top for detail).
