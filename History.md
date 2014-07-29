@@ -5,6 +5,7 @@
   * Add _url property in result object to help user distinguish source url.
   * Add logic to keep all the content for use * as selector
   * Update readme.
+  * Update test cases for update.
 
 
 0.1.0 / 2014-07-26
