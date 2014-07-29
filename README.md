@@ -14,10 +14,11 @@ Let's use [http://www.google.com](http://www.google.com)  as a example. When you
     </head>
     <body>
     ....
+        <img src="/images/icons/product/chrome-48.png"/>
+    ....
         <div>
             <img id="hplogo" src="'/images/srpr/logo9w.png'"/>
         </div>
-
     ....
     </body>
 </html>
@@ -109,20 +110,21 @@ var dataMap = {
        	};
 ```
 
-If for one content, you may have several possible selectors. You can put all possible selectors in an array. All the selector will be checked one after another until we find valid content.
+If you may have several possible selectors for one content. You can put all possible selectors in an array. All the selector will be checked one after another until we find valid content.
 ``` js
 var dataMap = {
 				logoImg:["#hplogo | src","#logo-url","#new-logo | src"]
        	};
 ```
-If for one selector, multiple content are found. All will content will be set an array and save in result. Please see example at beginning for you reference.
+If multiple contents are found for one selector. All contents will be set an array and save in result. Please see example at beginning for you reference.
 
 ## Result
 
-All the results of grabbing will be return in a object as result.
+All the results of grabbing will be return in a object as result (Please see [example](#example) at top for detail).
 
 There are some special value in result object :
-    1. _ _url _ will keep the url used for grabbing.
+
+1. _url will keep the url used for grabbing.
 
 
 ## Test
