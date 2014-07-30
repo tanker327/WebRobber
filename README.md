@@ -65,7 +65,7 @@ Please make sure you have nodejs and npm installed.
  1. Install it:
 
     ```bash
-    $ npm install webrobber --dev
+    $ npm install webrobber --save
     ```
 
  2. Require it:
