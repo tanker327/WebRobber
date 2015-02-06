@@ -71,7 +71,7 @@ Please make sure you have nodejs and npm installed.
  2. Require it:
 
     ```js
-    var should = require('webrobber');
+    var webrobber = require('webrobber');
     ```
 
  3. Prepare  dataMap:
