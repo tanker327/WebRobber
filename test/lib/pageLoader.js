@@ -6,7 +6,7 @@ var pageLoader = require('../../lib/pageLoader');
 var should = require('should');
 
 
-var url = "http://www.google.com"
+var url = "http://www.google.com";
 
 describe("pageLoader", function( ){
     it('Should load the web page', function (done) {
