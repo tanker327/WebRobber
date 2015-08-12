@@ -1,42 +1,43 @@
 {
-    "name": "webrobber",
-    "version": "0.1.3",
-    "main": "./lib",
-    "description": "A light weight nodejs library to helps you grab the specified content on any web page on internet.",
-    "homepage": "https://github.com/tanker327/WebRobber",
-    "bugs": "https://github.com/tanker327/WebRobber/issues",
-    "author": {
-        "name": "Eric Wu",
-        "email": "tanker327@gmail.com"
-    },
-    "scripts": {
-        "test": "mocha",
-        "start":"node ./example/example.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/tanker327/WebRobber"
-    },
-    "files": [
-        "lib"
-    ],
-    "dependencies": {
-        "cheerio": "^0.17.0"
-    },
-    "devDependencies": {
-        "mocha": "^1.21.0",
-        "should": "^4.0.4"
-    },
-    "keywords": [
-        "webrobber",
-        "web",
-        "crawler",
-        "content"
-    ],
-    "licenses": [
-        {
-            "type": "MIT",
-            "url": "https://github.com/tanker327/WebRobber/blob/master/LICENSE"
-        }
-    ]
+  "name": "webrobber",
+  "version": "0.1.3",
+  "main": "./lib",
+  "description": "A light weight nodejs library to helps you grab the specified content on any web page on internet.",
+  "homepage": "https://github.com/tanker327/WebRobber",
+  "bugs": "https://github.com/tanker327/WebRobber/issues",
+  "author": {
+    "name": "Eric Wu",
+    "email": "tanker327@gmail.com"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node ./example/example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tanker327/WebRobber"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "cheerio": "^0.17.0",
+    "request": "^2.60.0"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.0",
+    "should": "^4.0.4"
+  },
+  "keywords": [
+    "webrobber",
+    "web",
+    "crawler",
+    "content"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/tanker327/WebRobber/blob/master/LICENSE"
+    }
+  ]
 }
