@@ -98,6 +98,16 @@ Please make sure you have nodejs and npm installed.
     	}
 	});
  	```
+ 	Or if you familiar with Promise ([Q](https://github.com/kriskowal/q)). You can do following:
+ 	```js
+ 	webRobber.grab(url, dataMap)
+        .then(function(result){
+            console.log(result);
+        })
+        .catch(function(error){
+            console.log(error);
+        });
+ 	```
 
 ## DataMap
 DataMap is a map object use to define _Name_ and _Selector_ of the content you want to grap. _Name_ is used be mark the name of content in the final reslut object. _Selector_ is used to select the content in the web page.
