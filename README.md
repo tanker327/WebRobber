@@ -72,6 +72,7 @@ Please make sure you have nodejs and npm installed.
 
     ```js
     var webRobber = require('webrobber');
+
     ```
 
  3. Prepare  dataMap:
