@@ -14,7 +14,7 @@ describe("pageLoader", function( ){
         pageLoader(url, function (err, body) {
             if(err) throw err;
 
-            body.should.be.not.empty;
+            body.should.not.be.empty;
 
             done();
         });
