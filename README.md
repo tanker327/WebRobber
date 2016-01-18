@@ -1,6 +1,8 @@
 WebRobber
 =========
 
+NPM: https://www.npmjs.com/package/webrobber
+
 _WebRobber_ is a light weight nodejs library. Main goal of this library is to __helps you grab the specified content on any web page on internet__.
 
 
